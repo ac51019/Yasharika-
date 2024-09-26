@@ -230,7 +230,7 @@
 
 .story .story-timeline .row:hover {
     /* background-color: rgb(185, 25, 25); */
-    background-image: linear-gradient(to bottom right,#77f8fc,red,#dfd25f);
+    background-image: linear-gradient(to bottom right,#77f8fc,rgb(207, 75, 75),#dfd25f);
   }
 
   
