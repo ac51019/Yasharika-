@@ -228,6 +228,13 @@
     transform: translate(-50%, -50%);
 }
 
+.story .story-timeline .row:hover {
+    /* background-color: rgb(185, 25, 25); */
+    background-image: linear-gradient(to bottom right,#77f8fc,red,#dfd25f);
+  }
+
+  
+
 @media (max-width: 768px) {
     .story .story-timeline::before,
     .story .story-timeline::after,

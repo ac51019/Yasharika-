@@ -588,18 +588,13 @@
                   signifies a specific blessing they request from God.
                 </p>
 
-                <p class="mb-2 font-weight-bold mt-3">
-                  <i class="fa fa-location-arrow" aria-hidden="true"></i><p><a href=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7493.560226455653!2d73.93135703838453!3d20.101476628950838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddc569bc41744f%3A0xa60d45b3229f88a!2sType%202%20B%201084%2CHal%20Township%2C%20Ojhar!5e0!3m2!1sen!2sin!4v1727270604804!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> Type 2
-                    B 1912 HAL Township Ozar Nashik </a></p> To
-                  <p ><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3779.652405643695!2d73.82973027519556!3d18.679587682445057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b7edb45828dd%3A0x34ac39cb64a6035d!2sSeasons%20Banquets%20%2C%20Chikhali!5e0!3m2!1sen!2sin!4v1727269700717!5m2!1sen!2sin"
-                    width="600"
-                    height="450"
-                    style="border: 0"
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade""> Seasons Banquet,
+                <p class="mb-2 font-weight-bold mt-3 text-dark">
+                  <i class="fa fa-location-arrow" aria-hidden="true"></i> <strong>Type 2
+                    B 1912 HAL Township Ozar Nashik <br>(
+                      Time of Procession :- Morning )❤️ To ❤️<br>
+                  Seasons Banquet,
                     Gat no 106 , Laxmi Chowk , Near City Pride School, Dehu, Dehu
-                    - Alandi Rd, Chikhali, Pune, Maharashtra 411062</a></p>
+                    - Alandi Rd, Chikhali, Pune, Maharashtra 411062</strong></p>
                  
                 </p>
               </div>
@@ -681,7 +676,7 @@
                 </p>
 
                 <p class="mb-2 text-white font-weight-bold mt-3">
-                  <i class="fa fa-location-arrow" aria-hidden="true"></i> <a href="src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3746.679015326419!2d73.94440767523176!3d20.10570048132251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddc5e8aca4431d%3A0xc6d4a4817d93faaf!2sCommunity%20Hall%2CHAL%20Township!5e0!3m2!1sen!2sin!4v1727274105488!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">HAL
+                  <i class="fa fa-location-arrow" aria-hidden="true"></i>   <a href="src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3746.679015326419!2d73.94440767523176!3d20.10570048132251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddc5e8aca4431d%3A0xc6d4a4817d93faaf!2sCommunity%20Hall%2CHAL%20Township!5e0!3m2!1sen!2sin!4v1727274105488!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> HAL
                     Community Hall(7 PM Start)</a> 
                 </p>
               </div>
@@ -725,9 +720,9 @@
             </div>
             <h1 class="display-4">We Are Getting Married</h1>
             <p class="text-dark fs-5">
-              Niloy Hotel New York , 123 West 23th Street, NY
+              Seasons Banquet, Gat no 106 , Laxmi Chowk , Near City Pride School, Dehu, Dehu - Alandi Rd, Chikhali, Pune, Maharashtra 411062
             </p>
-            <div class="d-flex align-items-center justify-content-center mb-5">
+            <div class="d-flex align-items-center justify-content-center mb-5" id="demo">
               <div class="text-dark fs-2 me-4">
                 <div>00</div>
                 <span>Days</span>
@@ -1939,5 +1934,36 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    
+<script>
+  // Set the date we're counting down to
+  var countDownDate = new Date("dec 09, 2024 19:37:25").getTime();
+  
+  // Update the count down every 1 second
+  var x = setInterval(function() {
+  
+    // Get today's date and time
+    var now = new Date().getTime();
+      
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+      
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      
+    // Output the result in an element with id="demo"
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+      
+    // If the count down is over, write some text 
+    if (distance < 0) {
+      clearInterval(x);
+      document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+  }, 1000);
+  </script>
   </body>
 </html>
