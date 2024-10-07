@@ -90,3 +90,14 @@
     }
   }, 1000);
  
+
+// bgm 
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const audio = document.getElementById('background-music');
+
+    // Attempt to play audio on load
+    audio.play().catch(error => {
+        console.log('Autoplay prevented:', error);
+    });
+});
